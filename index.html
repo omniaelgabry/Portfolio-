@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Omnia Elgabry - Portfolio</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Outfit:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- 1. Intro / Splash Screen -->
+    <div id="splash-screen">
+        <img src="https://ynn787qihi.ufs.sh/f/Qj6TSP5Fj9mqRCNtO1phsQ4BHmpTMCzkbOSXGDZx26vV831o" alt="Omnia Logo" class="splash-logo-img">
+    </div>
+
+    <!-- Interactive Background Canvas (if needed, kept from original) -->
+    <canvas id="bg-canvas"></canvas>
+
+    <!-- Navbar -->
+    <header class="navbar">
+        <div class="container nav-container">
+            <div class="logo">
+                <a href="#home">Omnia Elgabry</a>
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about-section">About</a></li>
+                    <li><a href="#projects-section">Projects</a></li>
+                    <li><a href="#contact-section">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <main class="story-container">
+        
+        <!-- 2. Home Section -->
+        <section id="home" class="story-section scroll-step">
+            <div class="container home-layout">
+                <div class="home-text">
+                    <h1>Omnia Elgabry</h1>
+                    <div class="hello-wrapper">
+                        <h2>Hello, I am a </h2>
+                        <h2 class="typewriter-text"><span class="typed-text"></span><span class="cursor">&nbsp;</span></h2>
+                    </div>
+                </div>
+                <div class="home-images-grid">
+                    <img src="https://ynn787qihi.ufs.sh/f/Qj6TSP5Fj9mqiGNx9gIwNc4obmAzslt9pGhfIK8DjuayFdeS" alt="Omnia 1" class="home-img">
+                    <img src="https://ynn787qihi.ufs.sh/f/Qj6TSP5Fj9mqhHFSxWtZKDCqy7zFrvX5GiucQkeE1xwI4JUf" alt="Omnia 2" class="home-img">
+                    <img src="https://ynn787qihi.ufs.sh/f/Qj6TSP5Fj9mqkEPRdWLNCIF0SvETfb6mhiQyrRgtVBAxH5KX" alt="Omnia 3" class="home-img">
+                    <img src="https://ynn787qihi.ufs.sh/f/Qj6TSP5Fj9mq0UswxUvVU5aulgToKzAPGDOrJ3bS1wjEC78e" alt="Omnia 4" class="home-img">
+                </div>
+            </div>
+        </section>
+
+        <!-- 3. Scroll Step 1: Quote -->
+        <section class="story-section quote-section scroll-step">
+            <div class="container">
+                <h2 class="inspirational-quote">"Welcome, you can do everything you dream ."</h2>
+            </div>
+        </section>
+
+        <!-- 4. Scroll Step 2: "About" Title -->
+        <section id="about-section" class="story-section title-section scroll-step">
+            <h2 class="huge-title">About</h2>
+        </section>
+
+        <!-- 5. Scroll Step 3: Interactive About Me -->
+        <section class="story-section about-interactive scroll-step">
+            <div class="container about-layout">
+                <div class="about-img-box left-img">
+                    <img src="https://ynn787qihi.ufs.sh/f/Qj6TSP5Fj9mqkdnleKLNCIF0SvETfb6mhiQyrRgtVBAxH5KX" alt="Omnia Portrait 1">
+                </div>
+                <div class="about-text-content">
+                    <p>
+                        Hello! I am a passionate Frontend & Backend Developer, Graphic Designer, and a second-year Computer Science student at Helwan National University (Faculty of Computer Science and Information Technology).
+                    </p>
+                    <p>
+                        I don't just write code; I craft complete digital experiences from the ground up. With a unique blend of technical engineering and creative vision, I bridge the gap between robust server-side logic, seamless frontend interfaces, and striking visual aesthetics. My journey in tech is driven by relentless curiosity, a passion for solving complex logical challenges, and an ambition to build scalable, user-centric applications that stand out.
+                    </p>
+                    <p>
+                        Whether I'm architecting databases, building responsive interfaces, or designing eye-catching graphics and branding, I pour dedication into every pixel and line of code. I am constantly exploring new horizons in software development and digital design to bring ambitious ideas to life.
+                    </p>
+                    <div class="stack-info">
+                        <p><strong>Core Development Stack:</strong> HTML5, CSS3, JavaScript (JS), Backend Development</p>
+                        <p><strong>Design & Creativity:</strong> Graphic Design, UI/UX Design, Adobe Photoshop, Canva</p>
+                        <p><strong>Tools & Deployment:</strong> Git, GitHub, Vercel</p>
+                    </div>
+                    <p class="tagline">Always learning, always building, and ready to turn bold visions into digital reality.</p>
+                </div>
+                <div class="about-img-box right-img">
+                    <img src="https://ynn787qihi.ufs.sh/f/Qj6TSP5Fj9mqSKwLUKHckNqIpyho1zrg9vnKFGHuT2MRbU0W" alt="Omnia Portrait 2">
+                </div>
+            </div>
+        </section>
+
+        <!-- 6. Scroll Step 4: "Skills" Title -->
+        <section class="story-section title-section scroll-step">
+            <h2 class="huge-title">Skills</h2>
+        </section>
+
+        <!-- 7. Scroll Step 5: Skills Grid -->
+        <section class="story-section skills-section scroll-step">
+            <div class="container">
+                <ul class="skills-grid">
+                    <li class="skill-item">
+                        <div class="skill-icon">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" alt="HTML5">
+                        </div>
+                        <span class="skill-name">HTML</span>
+                        <span class="skill-percent">95%</span>
+                    </li>
+                    <li class="skill-item">
+                        <div class="skill-icon">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" alt="CSS3">
+                        </div>
+                        <span class="skill-name">CSS</span>
+                        <span class="skill-percent">95%</span>
+                    </li>
+                    <li class="skill-item">
+                        <div class="skill-icon">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" alt="JavaScript">
+                        </div>
+                        <span class="skill-name">JS</span>
+                        <span class="skill-percent">85%</span>
+                    </li>
+                    <li class="skill-item">
+                        <div class="skill-icon">
+                            <i class="fas fa-server" style="font-size: 2.5rem; color: #fff;"></i>
+                        </div>
+                        <span class="skill-name">Backend</span>
+                        <span class="skill-percent">80%</span>
+                    </li>
+                    <li class="skill-item">
+                        <div class="skill-icon">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" alt="Git">
+                        </div>
+                        <span class="skill-name">Git</span>
+                        <span class="skill-percent">90%</span>
+                    </li>
+                    <li class="skill-item">
+                        <div class="skill-icon">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" alt="GitHub" class="invert-icon">
+                        </div>
+                        <span class="skill-name">GitHub</span>
+                        <span class="skill-percent">90%</span>
+                    </li>
+                    <li class="skill-item">
+                        <div class="skill-icon">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vercel/vercel-original.svg" alt="Vercel" class="invert-icon">
+                        </div>
+                        <span class="skill-name">Vercel</span>
+                        <span class="skill-percent">90%</span>
+                    </li>
+                    <li class="skill-item">
+                        <div class="skill-icon">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/photoshop/photoshop-original.svg" alt="Photoshop">
+                        </div>
+                        <span class="skill-name">Photoshop</span>
+                        <span class="skill-percent">85%</span>
+                    </li>
+                    <li class="skill-item">
+                        <div class="skill-icon">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/canva/canva-original.svg" alt="Canva">
+                        </div>
+                        <span class="skill-name">Canva</span>
+                        <span class="skill-percent">90%</span>
+                    </li>
+                    <li class="skill-item">
+                        <div class="skill-icon">
+                            <i class="fas fa-pen-nib" style="font-size: 2.5rem; color: #fff;"></i>
+                        </div>
+                        <span class="skill-name">UI/UX</span>
+                        <span class="skill-percent">85%</span>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- 8. Scroll Step 6: "Projects" Title -->
+        <section id="projects-section" class="story-section title-section scroll-step">
+            <h2 class="huge-title">Projects</h2>
+        </section>
+
+        <!-- 9. Scroll Step 7: Projects -->
+        <section class="story-section projects-grid-section scroll-step">
+            <div class="container">
+                <div class="projects-grid">
+                    <!-- Project 1 -->
+                    <div class="project-card">
+                        <img src="https://ynn787qihi.ufs.sh/f/Qj6TSP5Fj9mqzKxmilUCYwfsWArUxEJlOBvkoeuTtLIbQc0g" alt="Sou Store" class="project-img">
+                        <div class="project-info">
+                            <h3>"Sou" Store</h3>
+                            <p>A full-stack web application for a premium online shopping experience.</p>
+                            <div class="project-links">
+                                <a href="Https://omniaelgabry.github.io/sou.store/" target="_blank" class="btn btn-primary btn-sm">Live Demo</a>
+                                <a href="https://github.com/omniaelgabry/sou.store" target="_blank" class="btn btn-outline btn-sm">Source Code</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Project 2 -->
+                    <div class="project-card">
+                        <img src="https://ynn787qihi.ufs.sh/f/Qj6TSP5Fj9mqXBXS7v6BfOxkT4nAu10WaPpDUZLYR8H357zN" alt="Fekra Store" class="project-img">
+                        <div class="project-info">
+                            <h3>"Fekra" Store</h3>
+                            <p>A modern platform to showcase and sell products with elegant design.</p>
+                            <div class="project-links">
+                                <a href="https://Fekra-store.vercel.app" target="_blank" class="btn btn-primary btn-sm">Live Demo</a>
+                                <a href="https://github.com/omniaelgabry/Fekra-store" target="_blank" class="btn btn-outline btn-sm">Source Code</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Project 3 -->
+                    <div class="project-card">
+                        <img src="https://ynn787qihi.ufs.sh/f/Qj6TSP5Fj9mqHjRLVWNWxk5QMT8qmKJCiDSvrP3ghfjXsZop" alt="Mood Space" class="project-img">
+                        <div class="project-info">
+                            <h3>"Mood Space" App</h3>
+                            <p>An application to help track mood and encourage relaxation.</p>
+                            <div class="project-links">
+                                <a href="https://omniaelgabry.github.io/MoodSpace/" target="_blank" class="btn btn-primary btn-sm">Live Demo</a>
+                                <a href="https://github.com/omniaelgabry/MoodSpace" target="_blank" class="btn btn-outline btn-sm">Source Code</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Project 4 -->
+                    <div class="project-card">
+                        <img src="https://ynn787qihi.ufs.sh/f/Qj6TSP5Fj9mqJGVq7uXWaNsvEmzFVgc2hutBUKdpfbxwqO0P" alt="Tic-Tac-Toe Game" class="project-img">
+                        <div class="project-info">
+                            <h3>"Tic-Tac-Toe" Game</h3>
+                            <p>The classic game built with web technologies and smooth logic.</p>
+                            <div class="project-links">
+                                <a href="https://omniaelgabry.github.io/game-X-O/" target="_blank" class="btn btn-primary btn-sm">Live Demo</a>
+                                <a href="https://github.com/omniaelgabry/game-X-O" target="_blank" class="btn btn-outline btn-sm">Source Code</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Project 5 -->
+                    <div class="project-card">
+                        <img src="https://ynn787qihi.ufs.sh/f/Qj6TSP5Fj9mq6dX4awSK3oml7D6HiwdG54Tnft9EkxyNZVjQ" alt="Wasfaa Website" class="project-img">
+                        <div class="project-info">
+                            <h3>"Wasfaa" Website</h3>
+                            <p>A beautiful and simplified platform for viewing and sharing recipes.</p>
+                            <div class="project-links">
+                                <a href="https://omniaelgabry.github.io/wasfaa/" target="_blank" class="btn btn-primary btn-sm">Live Demo</a>
+                                <a href="https://github.com/omniaelgabry/wasfaa" target="_blank" class="btn btn-outline btn-sm">Source Code</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Project 6 -->
+                    <div class="project-card">
+                        <img src="https://ynn787qihi.ufs.sh/f/Qj6TSP5Fj9mqU1fysDRkeGQ7mtg8JEoyaXh1RI9uWLHwB0Ms" alt="Quran & Tasbeeh App" class="project-img">
+                        <div class="project-info">
+                            <h3>"Quran & Tasbeeh" App</h3>
+                            <p>An Islamic application for reading the Quran and an electronic rosary.</p>
+                            <div class="project-links">
+                                <a href="https://omniaelgabry.github.io/-/" target="_blank" class="btn btn-primary btn-sm">Live Demo</a>
+                                <a href="https://omniaelgabry.github.io/-/" target="_blank" class="btn btn-outline btn-sm">Source Code</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Project 7 -->
+                    <div class="project-card">
+                        <img src="https://ynn787qihi.ufs.sh/f/Qj6TSP5Fj9mqELW6TgcLgPMhz6yijV529IZFNkxYvU3q0ue8" alt="O-I-Cafe" class="project-img">
+                        <div class="project-info">
+                            <h3>"O-I-Cafe"</h3>
+                            <p>A charming and interactive digital experience for a coffee shop.</p>
+                            <div class="project-links">
+                                <a href="https://omniaelgabry.github.io/O-I-Cafe/" target="_blank" class="btn btn-primary btn-sm">Live Demo</a>
+                                <a href="https://github.com/omniaelgabry/O-I-Cafe" target="_blank" class="btn btn-outline btn-sm">Source Code</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 10. Scroll Step 8: "Contact Me" Title -->
+        <section id="contact-section" class="story-section title-section scroll-step">
+            <h2 class="huge-title">Contact Me</h2>
+        </section>
+
+        <!-- 11. Scroll Step 9: Contact Details -->
+        <section class="story-section contact-section scroll-step">
+            <div class="container">
+                <div class="contact-content-wrapper">
+                    <form class="contact-form" action="mailto:omniaelgabry10@gmail.com" method="post" enctype="text/plain">
+                        <div class="form-group">
+                            <input type="text" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Your Message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+
+                    <div class="contact-info">
+                        <div class="info-item">
+                            <i class="fas fa-envelope"></i>
+                            <p>omniaelgabry10@gmail.com</p>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-phone"></i>
+                            <p>+20 1028678244</p>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <p>Egypt</p>
+                        </div>
+                        
+                        <div class="linkedin-link">
+                            <a href="https://www.linkedin.com/in/omnia-elgabry-410970425" target="_blank" class="btn btn-linkedin">
+                                <i class="fab fa-linkedin"></i> Connect on LinkedIn
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="scroll-step">
+            <div class="container">
+                <p>&copy; 2026 Omnia Elgabry | All Rights Reserved</p>
+            </div>
+        </footer>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
